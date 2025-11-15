@@ -1,0 +1,252 @@
+@font-face {
+    font-family: yekan;
+    src: url(fonts/yekan/Yekan.eot);
+    src: url(fonts/yekan/Yekan.woff);
+    src: url(fonts/yekan/Yekan.ttf);
+    src: url(fonts/yekan/Yekan.woff2);
+}
+
+body {
+    font-family: yekan;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.links {
+    display: flex;
+    gap: 30px;
+    color: rgb(98, 86, 86);
+}
+
+.links:hover {
+    cursor: pointer;
+}
+
+.logo {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.login {
+    border: 2px solid rgb(205, 194, 194);
+    height: 50px;
+    border-radius: 10px;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.navhr {
+    color: rgb(205, 194, 194);
+}
+
+.firstrow {
+    display: flex;
+    align-items: center;
+}
+
+.vid {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.col {
+    padding: 50px;
+}
+
+.lcol {
+    line-height: 30px;
+    text-align: justify;
+}
+
+.lcol h2 {
+    font-size: 50px;
+}
+
+.lcol h3 {
+    font-size: 30px;
+}
+
+.lcol p {
+    color: rgb(72, 68, 68);
+}
+
+.checkbox i {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.rbtn {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(25, 20, 20);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.lbtn {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(244, 238, 238);
+    color: rgb(20, 16, 16);
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: rgb(234, 218, 218);
+    margin-right: 20px;
+}
+
+.secrow {
+
+    margin-top: 100px;
+
+    background-color: rgb(159, 227, 204);
+    height: 900px;
+
+}
+
+.outbtn {
+    position: absolute;
+    left: 70px;
+    width: 70px;
+    height: 50px;
+    border-radius: 8px;
+    background: #e5dfdf;
+    font-size: 20px;
+}
+
+.inbtn {
+    width: 70px;
+    height: 50px;
+    border-radius: 8px;
+    background: #000;
+    color: #e5dfdf;
+    font-size: 20px;
+}
+
+.secrow img {
+    position: absolute;
+    left: 100px;
+    bottom: 60px;
+
+}
+
+.upcol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    margin: 0px 30px;
+}
+
+.downcol {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 170px;
+}
+
+.coll {
+    width: 23%;
+    border: 2px solid #000;
+    margin: 0px 10px;
+    background-color: #fefdfd;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.coll h4 {
+    font-size: 24px;
+}
+
+.coll h5 {
+    font-size: 16px;
+}
+
+.middlep {
+    background-color: rgb(239, 232, 232);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.coll span {
+    font-size: 50px;
+}
+
+.coll h3 {
+    border: 1px solid rgb(209, 188, 188);
+    border-radius: 10px;
+}
+
+.coll h3:hover {
+    cursor: pointer;
+}
+.thirdrow{
+    display: flex;
+    margin-top: 70px;
+}
+.fourthrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+.sec{
+    width: 23%;
+    margin: 0px 17px;
+    border: 1px solid rgb(234, 218, 218);
+    height: 400px;
+    padding: 10px;
+    text-align: justify;
+    
+}
+.sec h6{
+    font-size: 17px;
+}
+.sec p{
+    color: #6e6868;
+}
+.space{
+    height: 180px;
+}
+.cv img{
+    width: 80px;
+    position: fixed;
+    border-radius: 100%;
+    right: 0;
+    bottom: 0;
+}
+.cv img:hover{
+    cursor: pointer;
+    background: #000;
+}
+footer{
+    text-align: center;
+    margin-top: 100px;
+}
+footer a{
+    text-decoration: none;
+    color: #181717;
+    font-size: 20px;
+}
+footer a:hover{
+    font-size: 30px;
+    color: red;
+    background: #000;
+    border-radius: 10px;
+    padding: 10px;
+}
